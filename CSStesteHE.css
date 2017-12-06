@@ -1,0 +1,16 @@
+
+#BildeFilip {
+	background-color:red;
+}
+#TekstFilip {
+	background-color:black;
+	color:white;
+	visibility:hidden;
+	position:absolute;
+	margin-top:1000;
+}
+
+#BildeFIlip:hover #TekstFIlip{
+
+	visibility:visible:
+}
