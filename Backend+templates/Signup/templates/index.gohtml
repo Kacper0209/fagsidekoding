@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+</head>
+<body>
+	<h1>THIS IS INDEX.HTML</h1>
+
+	{{if .First}}
+		USER NAME: {{.UserName}}<br>
+		PASSWORD {{.Password}}<br>
+		FIRST {{.First}}<br>
+		LAST {{.Last}}<br>
+	{{else}}
+	<h3><a href="/login">Logg inn</a></h3>
+	<h3><a href="/signup">Lag ny bruker</a></h3>
+
+	{{end}}
+	<h3><a href="/blogg">Blogg</a></h3>
+
+</body>
+</html>
