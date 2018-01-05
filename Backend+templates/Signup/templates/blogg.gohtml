@@ -10,9 +10,13 @@
 		FIRST {{.First}}<br>
 		LAST {{.Last}}<br>
 	{{end}}
-	<h3><a href="/">Hovedside</a></h3>
-	<h3><a href="/login">login</a></h3>
-	<h3><a href="/signup">Lag ny bruker</a></h3>
+	{{range .}}
+		<h3>{{.Title}}</h3>
+		<p style="color:grey;">{{.By}}</p>
+		<p>{{.Content}}</p>
+	{{end}}
+	<h3><a href="/">Hovedside</a></h3><br>
+	<h3><a href="/logout">Logg ut</a></h3>
 
 </body>
 </html>
