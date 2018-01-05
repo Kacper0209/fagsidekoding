@@ -41,3 +41,10 @@ func alreadyLoggedIn(req *http.Request) bool {
 	
 	return ok
 }
+// func cleanSessions() {
+// 	for k, v := range dbSessions {
+// 		if time.Now().Sub(v.lastActivity) > (time.Minute * 30) {
+// 			delete(dbSessions, k)
+// 		}
+// 	}
+// }
