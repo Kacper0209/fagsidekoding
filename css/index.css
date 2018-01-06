@@ -1,0 +1,95 @@
+body {
+    margin: 5;
+}
+
+
+h1 {
+	font-family: Abril Fatface;
+	font-size: 50;
+	text-align: center;
+
+}
+h2{
+    text-align: center;
+    font-family: catamaran;
+    color: white;
+
+}
+h3{
+    font-size: 20px;
+    font-family: Catamaran;
+
+}
+
+.Paragraf{
+	text-align: center;
+	margin: 40px;
+	background-color:#bfbfbf;
+	padding:10
+}
+.Toppen{
+    background-color: #afc983;
+	margin-top: 0%;
+	color: white;
+	padding-top: 10;
+	font-family: Abril fatface;
+}
+.forsidewrapper {
+	padding: 20px;
+	background-color: white;
+	padding-bottom: 100%;
+}
+
+li {
+
+	float: left;
+	overflow: hidden;
+	font-size: 27px;
+    margin-top: 10;
+}
+ul {
+    list-style-type: none;
+    margin: 7;
+    padding: 0;
+    width: 79%;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 8px;
+    text-decoration: none;
+    padding-bottom: 20;
+}
+
+li a:hover {
+    background-color:#C0C0C0;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f1f1f1;
+    height: 6.5%;
+    position: fixed; 
+    overflow: auto; 
+}
+ul {
+    border: 1px solid darkgrey;
+    background-color: verylightgrey;
+}
+body{
+	font-size: 15;
+	font-family: Verdana;
+	margin: 0 150px;
+	background-color:#d7ebad ;ß
+
+}
+hr {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
