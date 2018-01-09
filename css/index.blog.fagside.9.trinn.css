@@ -1,0 +1,26 @@
+.Bloggtekst{
+	font-family: Catamaran;
+	font-size: 25px;
+	line-height: 125%;
+}
+.tittel{
+	font-family: Catamaran;
+	font-size: 25px;
+	line-height: 125%;
+	font-weight: 900;
+}
+body{
+	background-color: #d7ebad;
+	font-family: Abril fatface; 
+}
+.sendboks{
+	background-color: ;
+	font-family: Catamaran;
+	font-size: 25px;
+	font-weight: 900
+}
+.struktur{
+	width: 100%
+	margin-bottom:100%;
+
+}
