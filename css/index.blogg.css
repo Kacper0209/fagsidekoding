@@ -20,7 +20,6 @@ body{
 	font-weight: 900
 }
 .struktur{
-	width: 100%
-	margin-bottom:100%;
-
+	margin: 0 auto;
+	width: 900px;
 }
