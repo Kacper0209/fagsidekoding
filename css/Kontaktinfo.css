@@ -16,21 +16,21 @@ div.gallery {
 
 }
 .info{
-	background-color: #bfbfbf;
-	size: 20%;
+    background-color: #bfbfbf;
+    size: 20%;
 }
 
 .kontaktinfo {
-		padding: 20px;
-		background-color: white;
-		padding-bottom: 100%;
+        padding: 20px;
+        background-color: white;
+        padding-bottom: 0%;
 }
 .toppen{
-	background-color: #afc983;
-	margin-top: 0%;
-	color: white;
-	padding-top: 10;
-	font-family: Abril fatface;
+    background-color: #afc983;
+    margin-top: 0%;
+    color: white;
+    padding-top: 10;
+    font-family: Abril fatface;
 }
 
 body {
@@ -40,9 +40,9 @@ body {
 
 
 h1 {
-	font-family: Abril Fatface;
-	font-size: 50;
-	text-align: center;
+    font-family: Abril Fatface;
+    font-size: 50;
+    text-align: center;
 
 }
 h2 {
@@ -57,16 +57,16 @@ h3 {
 
 }
 hr {
-	margin-left: 1%;
-	margin-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 
 li {
 
-	float: left;
-	overflow: hidden;
-	font-size: 27px;
+    float: left;
+    overflow: hidden;
+    font-size: 27px;
     margin-top: 0px;
 }
 ul {
@@ -104,10 +104,34 @@ ul {
     background-color: verylightgrey;
 }
 body{
-	font-size: 13;
-	font-family: Verdana;
-	margin: 0 150px;
-	background-color:#d7ebad ;ß
+    font-size: 13;
+    font-family: Verdana;
+    margin: 0 150px;
+    background-color:#d7ebad ;ß
 
-	}
+    }
+footer {
+ 
+ background-color:#bfbfbf;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+ padding: 1rem;
+ text-align: center;
+ margin-top: 200%;
+ alignment-baseline: baseline;
+ 
+}
+.Knapper{
+    background-color: #afc983;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ margin-left: 10;
+ margin-right: 10;
+}
 
