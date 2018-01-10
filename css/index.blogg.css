@@ -13,13 +13,23 @@ body{
 	background-color: #d7ebad;
 	font-family: Abril fatface; 
 }
-.sendboks{
-	background-color: ;
-	font-family: Catamaran;
-	font-size: 25px;
-	font-weight: 900
-}
 .struktur{
 	margin: 0 auto;
 	width: 900px;
+}
+.sendboks {
+    background-color: #3CB371;
+    border: none;
+    color: white;
+    padding: 10px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Catamaran;
+	font-weight: 900
+}
+h1{
+	text-align: center;
+	font-size: 50px;
 }
