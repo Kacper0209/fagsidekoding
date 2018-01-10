@@ -1,6 +1,5 @@
 div.gallery {
      margin: 5px;
-     border: 1px solid #ccc;
      float: left;
      width: 180px;
 }
@@ -18,6 +17,7 @@ div.gallery {
 .info{
     background-color: #bfbfbf;
     size: 20%;
+    visibility: hidden;
 }
 
 .kontaktinfo {
@@ -31,6 +31,9 @@ div.gallery {
     color: white;
     padding-top: 10;
     font-family: Abril fatface;
+}
+.gallery:hover .info {
+    visibility: visible;
 }
 
 body {
