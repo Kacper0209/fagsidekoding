@@ -1,0 +1,52 @@
+h1{
+	font-size: 50;
+	font-family: Abril Fatface;
+}
+body {
+	margin: 0 50px;
+	background-color: #d7ebad;
+}
+#Wrapper {
+	margin-top: 150px;
+	margin-bottom: 150px;
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: white;
+	text-align: center;
+	padding-left: 50px;
+	padding-bottom: 15%;
+}
+form{
+	font-family: Verdana;
+	border-radius: 3px;
+	
+
+}
+.LoginBokser {
+	font-size: 15px;
+	background-color: #dcdcdc;
+	font-family: open sans;
+	color:black;
+}
+footer {
+ 
+ background-color:#bfbfbf;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ padding: 1rem;
+ text-align: center;
+ 
+}
+.Knapper{
+    background-color: #afc983;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ margin-left: 10;
+ margin-right: 10;
+}
