@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blogg</title>
+
+		<link rel="StyleSheet" href="/static/css/Blogg.css" type="text/css">
+
+</head>
+<body>
+
+<!--Denne siden trenger html-struktur til blogginlegg(flere nedover, vi har individuelle sider til hvert av blogginnleggene i tillegg). 
+Tittel, hvem som lagde, og selve bloggen. trenger bare å lage ett blogginlegg og skrive inn falske titler,
+navn og innhold. Backend legger til faktisk innhold automagisk-->
+<ul>
+	<li><a href="/" target="_blank"><img src="https://lh3.googleusercontent.com/tK6YGDCqciKOl4gLYohZF6l7piBHb0CI0nHCN341LSJ0Vw9P_VASc49ZQAMaosFmYYlc=w300" width="34" height="34" alt=".jpg"></a></li> 
+	<li><a href="/kontakt">Kontakt Informasjon</a></li>
+	<li><a href="/blogg">Blogg</a></li>
+	<li><a href="/newblog">Ny Blogg</a></li>
+	<li><a href="/aktiviteter"> Aktiviteter</a></li> 
+	<li><a href="/login"> Login</a></li> 
+	<li><a href="/signup"> Ny Bruker</a></li>
+ </ul>
+<br>
+<br>
+<br>
+ 			
+<div class="Wrapper">
+ 			
+	<div class="toppen">
+	 		<h1><a href="localhost:8080/blogg?id=">{{.Title}}</a></h1>
+	 		<p>{{.By}}</p>
+	 		<br>
+	 		
+	 		<h2>{{.Content}}</h2>
+	 		<br>
+	 		<hr>
+	 		<br>
+	 		<form method="post">
+	 			<textarea name="content" placeholder="Comment"></textarea>
+	 			<input type="submit">
+	 		</form>
+	 		{{if .Comment}}
+		 		{{range .Comment}}
+		 			<div class="comment">
+		 				<span class="commentInfo">{{.Bn}} {{.Bl}}</span>
+		 				<p class="commentParagraph">{{.Content}}</p>
+		 				<hr>
+		 			</div>
+		 		{{end}}
+		 	{{else}}
+		 		<h3>Ingen Kommentarer enda</h3>
+	 		{{end}}
+	 </div>
+</div>
+
+<br>
+	
+
+</body>
+</html>
